@@ -1981,7 +1981,7 @@ module csComp.Services {
                 gs.activeLegend = property.legend;
                 if (gs.activeLegend.visualAspect) gs.visualAspect = gs.activeLegend.visualAspect;
             } else {
-                gs.colors = ['white', '#FF5500'];
+                gs.colors = ['white', '#e2ad11'];
             }
 
             this.saveStyle(group, gs);
