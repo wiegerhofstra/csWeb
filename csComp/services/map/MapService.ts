@@ -71,8 +71,7 @@ module csComp.Services {
                 switch (action.toLowerCase()) {
                     case 'setextent':
                         // console.log(data);
-                        // take the navbar and leftpanel into account using padding (15+50px height, 25+400px left)
-                        this.map.fitBounds(new L.LatLngBounds(data.southWest, data.northEast), { paddingTopLeft: new L.Point(400, 105) });
+                        this.map.fitBounds(new L.LatLngBounds(data.southWest, data.northEast));
                         break;
                     case 'setzoom':
                         // Zoom to a location on the map.
